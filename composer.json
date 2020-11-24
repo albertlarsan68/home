@@ -1,0 +1,7 @@
+{
+    "name":"al68/home",
+    "description": "A cool home page",
+    "require": {
+        "php": "7.4.*"
+    }
+}
