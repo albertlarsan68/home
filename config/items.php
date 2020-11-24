@@ -1,21 +1,12 @@
 <?php
-return(
-    array(
-        array(
-            'location'  => 'albertlarsan',
-            'text'      => 'AlbertLarsan.test'
-        ),
-        array(
-            'location'  => 'dashboard',
-            'text'      => 'Page d\'accueil XAMPP'
-        ),
-        array(
-            'location'  => 'files',
-            'text'      => 'Gestion des fichiers'
-        ),
-        array(
-            'location'  => 'phpmyadmin',
-            'text'      => 'phpMyAdmin'
-        )
-    )
-);
+return(array(
+  array(
+    'location'=> '<your folder>',
+    'text' => '<the text that is shown>'
+  ),
+  array(
+    'location'=> '<your second folder>',
+    'text' => '<the second text that is shown>'
+  )
+  //...
+));
