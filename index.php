@@ -9,8 +9,8 @@ $uri .= $_SERVER['HTTP_HOST'];
 try {
     if (isset($_GET['action'])) {
         if ($_GET['action']=='listItems') {
-            require($uri.'/home/itemList.php');
-            ItemList(array(
+            require('itemList.php');
+            echo ItemList(array(
                 '1' => array('location' => 'albertlarsan', 'text' => 'AlbertLarsan.test'),
             ));
         } elseif ($_GET['action']=='goto') {
