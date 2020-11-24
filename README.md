@@ -2,7 +2,7 @@
 A cool home page
 
 ## Usage:
-In ``config/items.php``, you must define your list of lines you want in your home page.
+In ``config/items.php``, you **must** define the list of lines you want to show in your home page.
 It is defined like this:
 ```
 <?php
